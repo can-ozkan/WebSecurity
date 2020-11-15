@@ -1,0 +1,8 @@
+GET : Retrieves data by URI
+HEAD : Same as the GET method, but retrieves only header information of an HTML document, not the document body
+OPTIONS : Requests info on available options
+TRACE : Starts a remote application-layer loopback of the request message
+CONNECT : Used with a proxy that can dynamically switch to a tunnel connection such as SSL
+DELETE : Requests that the origin server delete the identified resource
+PUT : Reqeusts that the entity be stored under the Request-URI
+POST : Allows data to be posted (sent to a web server)
