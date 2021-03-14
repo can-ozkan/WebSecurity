@@ -10,4 +10,6 @@ Command Execution Vulnerabilities
 ---------------------------------
 Allows an attacker to execute OS specific commands.
 Attackers can get reverse shell. (see reverse shell commands: bash, perl python, php, ruby, nc etc)
+Mitigation : 1) Don't use dangerous functions.
+             2) Input validation before execution.
 
