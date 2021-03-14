@@ -13,3 +13,6 @@ Attackers can get reverse shell. (see reverse shell commands: bash, perl python,
 Mitigation : 1) Don't use dangerous functions.
              2) Input validation before execution.
 
+Local File Inclusion
+--------------------
+Allows an attacker to read any file.
