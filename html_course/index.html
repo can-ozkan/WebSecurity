@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cat Photo App</title>
+</head>
+<body>
+    <!--This is the application developed by Beau Carnes. I followed the HTML 
+        Crash course for beginners tutorial from FreeCodeCamp Youtube channel.-->
+
+    <h2>Cat Photo Application</h2>
+
+    <main>
+        <h3>Cat Photos</h3>
+
+        <p>Click <a href="#" target="_blank">here</a> to view more cat photos. </p>
+        <img src="https://fcc.im/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+        <h3>Cat Lists</h3>
+        <div class="lists">
+            <p>Things that cats <strong>love:</strong> </p>
+            <ul>
+                <li>Cat nip</li>
+                <li>Laser pointers</li>
+                <li>Lasagna</li>
+            </ul>
+    
+            <img src="lasagna.jpg" alt="Lasagna">
+    
+            <p>Things that cats <strong>hate: </strong> </p>
+            <ol>
+                <li>Flea treatment</li>
+                <li>Thunder</li>
+                <li>Other cats</li>
+            </ol>
+        </div>
+       
+
+        <img src="https://cdn.freecodecamp.org/youtube/html-course/cats.jpg" alt="Cats">
+
+        <form action="/submit-cat-photo">
+            <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label> <br>
+            <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label> <br>
+            <label for="loving"><input id="loving" type="checkbox" name="personality" checked> Loving</label> <br>
+            <label for="lazy"><input id="lazy" type="checkbox" name="personality"> Lazy</label> <br>
+            <label for="energetic"><input id="energetic" type="checkbox" name="personality"> Energetic</label> <br>
+            <input type="text" placeholder="Cat Photo URL" required> <br>
+            <button type="submit">Submit</button>
+        </form>
+
+        
+    </main>
+
+    <footer>
+        <p><small> No Copyright - <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp.org </a></small></p>
+    </footer>
+</body>
+
+</html> 
