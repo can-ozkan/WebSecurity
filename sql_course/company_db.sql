@@ -182,3 +182,6 @@ SELECT employee.emp_id, employee.first_name, branch.branch_name
 FROM employee
 JOIN branch
 ON employee.emp_id = branch.mgr_id;
+
+--Find names of all employees who have sold over 30.000 to a single client
+
