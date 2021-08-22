@@ -161,3 +161,24 @@ SELECT - FROM employee WHERE birth_date LIKE '____-10%';
 
 --Find any clients who are schools
 SELECT * FROM client WHERE client_name LIKE '%school%';
+
+--Find a list of employee and branch names
+SELECT first_name FROM employee
+UNION
+SELECT branch_name FROM branch;
+
+--Find a list of all clients and branch suppliers' name
+SELECT client_name FROM client
+UNION
+SELECT supplier_name FROM branch_supplier;
+
+--Find a list of all clients and branch suppliers' name along with associated branch id
+SELECT client_name, client.branch_id FROM client
+UNION
+SELECT supplier_name, branch_supplier.branch_id FROM branch_supplier;
+
+--Find all branches and the names of their managers 
+SELECT employee.emp_id, employee.first_name, branch.branch_name
+FROM employee
+JOIN branch
+ON employee.emp_id = branch.mgr_id;
