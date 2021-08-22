@@ -133,3 +133,13 @@ SELECT COUNT(super_id) FROM employee;
 
 --Find the number of female employees born after 1970
 SELECT COUNT(emp_id) FROM employee WHERE sex='F' AND birth_date > '1971-01-01';
+
+--Find the average of all employee's salaries
+SELECT AVG(salary) FROM employee;
+
+
+--Find the average of all male employee's salaries
+SELECT AVG(salary) FROM employee WHERE sex='M';
+
+--Find the sum of all employee's salaries
+SELECT SUM(salary) FROM employee;
