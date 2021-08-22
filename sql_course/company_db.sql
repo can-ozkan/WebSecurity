@@ -124,3 +124,9 @@ SELECT * FROM employee LIMIT 5;
 SELECT first_name, last_name FROM employee;
 SELECT first_name AS forename, last_name AS surname FROM employee;
 SELECT DISTINCT sex FROM employee;
+
+--Find the number of employees
+SELECT COUNT(emp_id) FROM employee;
+
+--Find the no of employee who has a supervisor
+SELECT COUNT(super_id) FROM employee;
