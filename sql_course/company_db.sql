@@ -143,3 +143,9 @@ SELECT AVG(salary) FROM employee WHERE sex='M';
 
 --Find the sum of all employee's salaries
 SELECT SUM(salary) FROM employee;
+
+--Find out how many famelas and males there are
+SELECT COUNT(sex), sex FROM employee GROUP BY sex;
+
+--Find the total sales of each salesman
+SELECT SUM(total_sales), emp_id FROM works_with GROUP BY emp_id;
