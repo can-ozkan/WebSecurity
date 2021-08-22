@@ -128,5 +128,8 @@ SELECT DISTINCT sex FROM employee;
 --Find the number of employees
 SELECT COUNT(emp_id) FROM employee;
 
---Find the no of employee who has a supervisor
+--Find the no of employees having a supervisor
 SELECT COUNT(super_id) FROM employee;
+
+--Find the number of female employees born after 1970
+SELECT COUNT(emp_id) FROM employee WHERE sex='F' AND birth_date > '1971-01-01';
