@@ -149,3 +149,15 @@ SELECT COUNT(sex), sex FROM employee GROUP BY sex;
 
 --Find the total sales of each salesman
 SELECT SUM(total_sales), emp_id FROM works_with GROUP BY emp_id;
+
+--Find the clients who are LLC
+SELECT * FROM client WHERE client_name LIKE '%LLC%';
+
+--Find any branch suppliers who are in label business
+SELECT * FROM branch_supplier WHERE supplier_name LIKE '%Label%';
+
+--Find any employee born in October
+SELECT - FROM employee WHERE birth_date LIKE '____-10%';
+
+--Find any clients who are schools
+SELECT * FROM client WHERE client_name LIKE '%school%';
