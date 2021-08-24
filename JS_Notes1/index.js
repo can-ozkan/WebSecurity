@@ -1,6 +1,6 @@
 console.log('Hello World');
 
-// We use a variable to store data temporarily in a computer's memory.
+// We use a variable to store data temporarily on a computer's memory.
 
 let firstName = 'Can';
 console.log(firstName);
