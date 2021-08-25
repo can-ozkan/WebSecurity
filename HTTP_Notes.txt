@@ -1,0 +1,45 @@
+What is HTTP?
+-------------
+Hyper Text Transfer Protocol
+Communication betwween web servers and clients
+Loading pages, form submit, AJAX calls
+
+HTTP is Stateless
+-----------------
+Every request is completely independant
+Programming, Local Storage, Cookies, Sessions are used to create enhanced user experiences
+
+What is HTTPS?
+--------------
+HTTP over SSL/TLS
+Data sent is encrypted
+SSL/TLS is used to encrypt the data
+Install certificate on web host
+
+HTTP Methods
+------------
+GET -> Retrieves data from the web server
+POST -> Submit data to the web server
+PUT -> Update data that is already on the web server
+DELETE -> Deletes data on the server
+
+HTTP Status Codes
+------------------
+1xx -> Informational. Request received / processing
+2xx -> Success. Successfully recevied, understood and accepted
+3xx -> Redirect. Further action must be taken / redirect
+4xx -> Client error. Request does not have what it needs
+5xx -> Server error. Server failed to fulfill an apparent valid request
+
+200 -> OK
+201 -> OK, created
+301 -> Moved to new URL
+304 -> Not modified (cached version)
+400 -> Bad request
+401 -> Unauthorized
+403 -> Forbidden
+404 -> Not found
+500 -> Internal server error
+
+
+
